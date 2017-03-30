@@ -7,4 +7,5 @@ Django 1.10.6
 enjoy your booklist.
 
 
-create a new branch  is quick & simple.
+
+create a new branch  is quick and simple.
