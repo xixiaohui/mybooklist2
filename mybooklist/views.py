@@ -6,4 +6,5 @@ from django.http import HttpResponse
 
 def index(request):
 
-	return HttpResponse("你好，你正在mybooklist 的界面，不要说我是奚晓辉")
+
+	return HttpResponse("你好，你正在mybooklist 的界面，我是xixiaohui，上海")
