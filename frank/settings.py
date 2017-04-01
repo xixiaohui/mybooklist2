@@ -31,7 +31,6 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'mybooklist.apps.MybooklistConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -55,7 +54,9 @@ ROOT_URLCONF = 'frank.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            '/home/ubuntu/mysite/frank/mybooklist/templates/'
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
